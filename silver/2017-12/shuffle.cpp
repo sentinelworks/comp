@@ -47,6 +47,8 @@ int main()
 
     cout << cnt << endl;
     out << cnt << endl;
+    out.close();
+    in.close();
 
     return 0;
 }
